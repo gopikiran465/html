@@ -3,7 +3,7 @@ var time = date.getHours();
 
 var arr = time.toString().split("");
 
-console.log(sum("3"));
+
 
 function sum(num) {
     var time = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"];
@@ -15,3 +15,5 @@ function sum(num) {
         return time[a];
     }
 }
+
+sum(arr);
