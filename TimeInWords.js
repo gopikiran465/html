@@ -17,3 +17,22 @@ function sum(num) {
 }
 
 sum(arr);
+
+
+var date = new Date();
+var time = date.getHours();
+
+var arr = time.toString().split("");
+
+
+
+function sum(val) {
+   let a = 0;
+  var arr = val.toString().split("");
+  arr.forEach((n)=>{
+    a=a+Number(n);
+  });
+  return a
+}
+
+console.log((sum(987643211)));
