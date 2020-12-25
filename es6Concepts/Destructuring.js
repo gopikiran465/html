@@ -1,3 +1,20 @@
+//array destructuring
+var colors = ["red", "blue", "green", "yellow"];
+let [red, blue, green, yellow] = colors;
+
+console.log(red, blue, green, yellow); //red blue green yellow
+
+var colors = ["red", "blue", "green", "yellow"];
+let [red, blue, green, yellow] = colors;
+
+function disp([val1, val2]) {
+    console.log(val1, val2)
+};
+
+disp(colors)
+
+
+//Object 
 let obj = {
     name: "Gopi",
     qualification: "B.Tech",
